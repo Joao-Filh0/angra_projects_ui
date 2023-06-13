@@ -61,7 +61,7 @@ class _AngraHoverCardState extends State<AngraHoverCard> {
                     ),
                     Text(
                       widget.title,
-                      style: TextStyle(color: widget.iconColor, fontSize: 12.0),
+                      style: TextStyle(color: widget.iconColor, fontSize: 20.0),
                     )
                   ],
                 ),
