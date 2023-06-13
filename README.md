@@ -15,9 +15,9 @@ lib/
 
 ### Convenções
 
-1. Sempre utilize a palavra **Angra** ao criar um novo arquivo ou classe widget. Esta regra também se aplica aos enums.
+1. Sempre utilize a palavra **Angra** ao criar um novo arquivo ou classes sejam elas Widget ou Helpers. Esta regra também se aplica aos Enums e Extensions.
 2. Prefira sempre usar o padrão do Flutter: camelCase para declarar variáveis, PascalCase para classes, e snake_case
-   para nomes de arquivos.
+   para nomes de arquivos e diretórios.
 3. Sempre exporte os widgets, enums, helpers ou extensions no arquivo ```angra_projects_ui.dart```
 4. Utilizar o ChangeNotifier, ValueNotifier com o ValueListenableBuilder se precisar gerenciar o estado.
 
