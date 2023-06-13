@@ -45,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 "Angra${listPages[index].runtimeType.toString().replaceAll('Page', '')}",
                 style: const TextStyle(
                     fontWeight: FontWeight.bold,
+                    color: Colors.black87,
                     fontSize: 25.0),
               ),
               onTap: () async {

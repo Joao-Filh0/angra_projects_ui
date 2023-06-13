@@ -59,7 +59,10 @@ class _AngraHoverCardState extends State<AngraHoverCard> {
                     const SizedBox(
                       height: 100,
                     ),
-                    Text(widget.title)
+                    Text(
+                      widget.title,
+                      style: TextStyle(color: widget.iconColor, fontSize: 12.0),
+                    )
                   ],
                 ),
               ),
@@ -71,6 +74,5 @@ class _AngraHoverCardState extends State<AngraHoverCard> {
   void _onEnter(PointerEnterEvent event) =>
       controller.value = widget.hoverColor;
 
-  _onExit(PointerExitEvent event) =>
-      controller.value = widget.backgroundColor;
+  _onExit(PointerExitEvent event) => controller.value = widget.backgroundColor;
 }
