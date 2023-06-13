@@ -51,3 +51,14 @@ Use o comando ```flutter build web --profile --source-maps``` para fazer o build
 Veja a documentação online clicando em [doc](https://example-ui-519b7.web.app).
 
 Para rodar a documentão de examplo ```/angra_projects_ui/example/lib/main.dart``` .
+
+#### Como versionar
+
+
+Utilizaremos versionação semântica que segue o padrão MAJOR.MINOR.PATCH, onde:
+
+**MAJOR:** indica uma mudança incompatível. Isso significa que algo mudou que pode quebrar a compatibilidade com versões anteriores do software. Quando isso acontece, a versão principal é incrementada.
+
+**MINOR:** representa uma nova funcionalidade ou um conjunto de funcionalidades que são compatíveis com versões anteriores. Sempre que você adiciona funcionalidades que não quebram a compatibilidade com versões anteriores, você incrementa a versão minor.
+
+**PATCH:** refere-se a correções de bugs e outras alterações semelhantes que não afetam a compatibilidade com versões anteriores. Quando você faz uma correção de bug ou uma mudança pequena que não adiciona novas funcionalidades e não quebra a compatibilidade, você incrementa a versão de patch.
