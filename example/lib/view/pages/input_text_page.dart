@@ -12,8 +12,6 @@ class InputTextPage extends StatefulWidget {
 }
 
 class _InputTextPageState extends State<InputTextPage> implements BoxScreen {
-  final String _title = 'AngraTextInput';
-
   final _component = AngraTextInput(
     controller: TextEditingController(),
     validator: AngraValidatorFieldHelpers.required("Campo Obrigatório"),
@@ -34,7 +32,6 @@ class _InputTextPageState extends State<InputTextPage> implements BoxScreen {
   @override
   Widget build(BuildContext context) {
     return DocumentationPage(
-      title: _title,
       component: _component,
       paramsToMap: paramsToMap,
     );

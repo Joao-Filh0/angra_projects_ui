@@ -6,15 +6,13 @@ abstract class BoxScreen {
 }
 
 class DocumentationPage extends StatefulWidget {
-  final String title;
   final Widget component;
   final Function paramsToMap;
   final Map<String, dynamic>? example;
   final bool branded;
 
   const DocumentationPage(
-      {required this.title,
-      required this.component,
+      {required this.component,
       required this.paramsToMap,
       this.example,
       Key? key,
@@ -73,6 +71,4 @@ class _DocumentationPageState extends State<DocumentationPage> {
 
     return code += '\n)';
   }
-
-
 }

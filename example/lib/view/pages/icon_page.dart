@@ -1,5 +1,4 @@
 import 'package:angra_projects_ui/angra_projects_ui.dart';
-import 'package:angra_projects_ui/widgets/angra_icon.dart';
 import 'package:example/doc/documentation_page.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +10,6 @@ class IconPage extends StatefulWidget {
 }
 
 class _IconPageState extends State<IconPage> implements BoxScreen {
-  final String _title = 'AngraIcon';
 
   final _component = const AngraIcon(
     color: Colors.red,
@@ -31,7 +29,6 @@ class _IconPageState extends State<IconPage> implements BoxScreen {
   @override
   Widget build(BuildContext context) {
     return DocumentationPage(
-      title: _title,
       component: _component,
       paramsToMap: paramsToMap,
     );

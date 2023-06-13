@@ -2,6 +2,8 @@ library angra_projects_ui;
 
 //Put here your exports Widgets
 export 'widgets/angra_text_input.dart';
+export 'widgets/angra_icon.dart';
+export 'widgets/angra_hover_card.dart';
 
 //Put here your exports Enums
 export 'commons/enums/angra_icons.dart';
