@@ -1,7 +1,5 @@
 # Angra Example UI
 
-
-
 ### Estrutura do Projeto
 
 ```
@@ -25,8 +23,8 @@ lib/
 
 ### Como adicionar novos Icones
 
-Para adicionar novos  icones basta colar seu ```icon.svg``` no diretório ```assets/icons```
-em seguida rode o comando: 
+Para adicionar novos icones basta colar seu ```icon.svg``` no diretório ```assets/icons```
+em seguida rode o comando:
 
 ```shell
 dart run scripts/generate_icons.dart 
@@ -39,10 +37,17 @@ Adicione as seguintes linhas ao pubspec.yaml
 ```yaml
   angra_projects_ui:
     git:
-      url: git@github.com:github-user/angra_projects_ui.git 
+      url: git@github.com:github-user/angra_projects_ui.git
       ref: 0.0.1 # adicione a versão atualizada
 ```
-para mais informações acesse o [link](https://docs.flutter.dev/packages-and-plugins/using-packages?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxUxZd7WLxTRZkY6i-0zuOa4Wr0OIZb-PrzZWCXwX-qWbE974yf4DLBoCj9AQAvD_BwE&gclsrc=aw.ds)
+
+para mais informações acesse
+o [link](https://docs.flutter.dev/packages-and-plugins/using-packages?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxUxZd7WLxTRZkY6i-0zuOa4Wr0OIZb-PrzZWCXwX-qWbE974yf4DLBoCj9AQAvD_BwE&gclsrc=aw.ds)
 
 ### Documentação
-Vá para ```/angra_projects_ui/example/lib/main.dart``` para rodar a documentão de examplo.
+
+Use o comando ```flutter build web --profile --source-maps``` para fazer o build web.
+
+Veja a documentação online clicando em [doc](https://example-ui-519b7.web.app).
+
+Para rodar a documentão de examplo ```/angra_projects_ui/example/lib/main.dart``` .
