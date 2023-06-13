@@ -15,7 +15,7 @@ class _IconPageState extends State<IconPage> implements BoxScreen {
 
   final _component = const AngraIcon(
     color: Colors.red,
-    size: 200,
+    size: 100,
     icon: AngraIconsEnum.alt_battery,
   );
 
