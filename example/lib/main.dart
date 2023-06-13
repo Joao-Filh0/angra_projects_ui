@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
             itemCount: listPages.length,
             itemBuilder: (BuildContext context, int index) => ListTile(
               title: Text(
-                listPages[index].runtimeType.toString(),
+                "Angra${listPages[index].runtimeType.toString().replaceAll('Page', '')}",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: MediaQuery.sizeOf(context).width * 0.02),
