@@ -43,9 +43,9 @@ class _HomeScreenState extends State<HomeScreen> {
             itemBuilder: (BuildContext context, int index) => ListTile(
               title: Text(
                 "Angra${listPages[index].runtimeType.toString().replaceAll('Page', '')}",
-                style: TextStyle(
+                style: const TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: MediaQuery.sizeOf(context).width * 0.02),
+                    fontSize: 25.0),
               ),
               onTap: () async {
                 Navigator.pop(context);
