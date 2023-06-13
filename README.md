@@ -38,7 +38,7 @@ Adicione as seguintes linhas ao pubspec.yaml
   angra_projects_ui:
     git:
       url: git@github.com:github-user/angra_projects_ui.git
-      ref: 0.0.1 # adicione a versão atualizada
+      ref: 0.0.1 # adicione o número da versao release
 ```
 
 para mais informações acesse
