@@ -39,7 +39,7 @@ class _DocumentationExpansiveTileState
               style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20.0,
-                  color: Colors.black87),
+                  color: Color(0xBD000000)),
             ),
           if (widget.component != null) verticalSpaceMedium,
           if (widget.component != null) Center(child: widget.component!),
