@@ -15,7 +15,7 @@ void main() {
     }
   }
 
-  final enumContent = 'enum AppIconsEnum { ${enumValues.join(', ')} }\n';
+  final enumContent = 'enum AngraIconsEnum { ${enumValues.join(', ')} }\n';
 
   final outputFile = File('lib/commons/enums/angra_icons.dart');
   outputFile.writeAsStringSync(enumContent);

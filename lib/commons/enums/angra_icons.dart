@@ -1,1 +1,1 @@
-enum AppIconsEnum { alt_bell, alt_battery, pokeball }
+enum AngraIconsEnum { alt_bell, alt_battery, pokeball }
