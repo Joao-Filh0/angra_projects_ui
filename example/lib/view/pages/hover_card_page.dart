@@ -16,8 +16,8 @@ class _HoverCardPageState extends State<HoverCardPage> implements BoxScreen {
       icon: AngraIconsEnum.alt_bell,
       title: "Example",
       iconColor: Colors.deepPurple,
-      height: 300,
-      width: 300);
+      height: 300.0,
+      width: 300.0);
 
   @override
   Map<String, dynamic> paramsToMap() {
